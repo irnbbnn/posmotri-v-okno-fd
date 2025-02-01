@@ -267,38 +267,32 @@ ol {
   margin-bottom: 3px;
 }
 
+.search-form__label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .search-form__checkbox-list {
   display: flex;
-  flex-direction: row;
   min-width: 212px;
   gap: 15px;
-}
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
-  border: white 1px solid;
-  position: relative;
-}
-
-.search-form__pseudo-checkbox::after {
-  content: "";
-  width: 18px;
-  height: 18px;
-  background-color: white;
-  border: #1b1919 solid 1px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  inline-size: 19px;
+  block-size: 19px;
+  border: 1px solid white;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  display: block;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: white;
 }
 
 .search-form__label:hover .search-form__label-text {
