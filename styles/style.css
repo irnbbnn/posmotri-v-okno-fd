@@ -141,7 +141,6 @@ ol {
 
 .content__video-card-description-container:hover {
   text-decoration: underline;
-  line-height: 16.2p;
   cursor: pointer;
 }
 
@@ -261,10 +260,15 @@ ol {
 .more-button {
   width: 99%;
   padding: 6px 0px;
-  position: block;
   bottom: 1px;
   margin-left: 2px;
   margin-bottom: 3px;
+  display: block;
+}
+
+.more-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .search-form__label {
