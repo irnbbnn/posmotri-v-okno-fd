@@ -68,9 +68,12 @@ ol {
 .button {
   font-size: 18px;
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
   background-color: transparent;
   color: white;
   border: currentColor solid 1px;
+  min-width: 194px;
+  padding: 5px 0px;
 }
 
 .content {
@@ -248,11 +251,6 @@ ol {
   outline-offset: 2px;
   border-top: white solid 1px;
   border-bottom: white solid 1px;
-}
-
-.button {
-  min-width: 194px;
-  padding: 5px 0px;
 }
 
 .button:active {
