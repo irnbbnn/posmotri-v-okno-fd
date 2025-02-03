@@ -145,6 +145,16 @@ ol {
   max-width: 100%;
 }
 
+.content__card-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__card-link:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -169,12 +179,6 @@ ol {
 
 .content__accent:first-child {
   color: #545050;
-}
-
-.content__card-link {
-  color: inherit;
-  text-decoration: none;
-  display: block;
 }
 
 .content__video-card-title {
